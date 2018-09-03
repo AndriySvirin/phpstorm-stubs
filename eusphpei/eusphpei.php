@@ -26,9 +26,18 @@ function euspe_setcharset(int $iEncoding): int
  * @param int $iErrorCode Error code
  * @return int Code.
  */
-function euspe_init(int $iErrorCode): int
+function euspe_init(int &$iErrorCode): int
 {
 }
+
+/**
+ * Generate random sequence by GPVCH.
+ * @param int $iLength
+ * @param string $sData
+ * @param int $iErrorCode
+ * @return int
+ */
+function euspe_generateprngsequence(int $iLength, string &$sData, int &$iErrorCode): int {}
 
 /**
  * Get file storage settings.
