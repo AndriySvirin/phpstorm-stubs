@@ -13,6 +13,7 @@
         "code",
         "inspection"
     ],
+    "version": "100.100.100",
     "require-dev": {
       "nikic/php-parser": "v4.0.1",
       "phpdocumentor/reflection-docblock": "^4.3",
